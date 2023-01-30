@@ -1,0 +1,4 @@
+module PocketTranslatorC {
+    umbrella "."
+    export *
+}
