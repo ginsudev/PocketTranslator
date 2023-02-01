@@ -39,7 +39,7 @@ class PTWindow: SBFTouchPassThroughWindow {
         //Allow this window to show when the device is locked.
         _setSecure(true)
         //Set the window level to be higher than everything else.
-        windowLevel = .statusBar + 99999999
+        windowLevel = .statusBar + 100
         //Set our custom touch pass through controller as the root vc.
         rootViewController = PTViewController()
     }
