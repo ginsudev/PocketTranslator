@@ -9,7 +9,6 @@ import Foundation
 import PocketTranslatorC
 
 class PTWindow: SBFTouchPassThroughWindow {
-    
     @available(iOS, deprecated: 15)
     override init!(
         screen arg1: UIScreen!,

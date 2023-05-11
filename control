@@ -1,9 +1,9 @@
 Package: com.ginsu.pockettranslator
-Name: PocketTranslator
+Name: PocketTranslator ${PKG_NAME_SUFFIX}
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome Orion tweak!
+Description: Lightweight & convenient translator.
 Maintainer: Ginsu
 Author: Ginsu
 Section: Tweaks
-Depends: ${ORION}, firmware (>= 12.2)
+Depends: ${ORION}, firmware (>= 14.0), com.opa334.ccsupport
